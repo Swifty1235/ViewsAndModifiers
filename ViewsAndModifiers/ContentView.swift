@@ -13,12 +13,18 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello!!")
+            Text("Hello my name is Pedro!")
+                .font(.largeTitle)
+                
+            
         }
-        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background (.indigo)
     }
 }
+
 
 #Preview {
     ContentView()
 }
+
